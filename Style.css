@@ -1,0 +1,34 @@
+button{
+  width: 50%;
+  height: 30px;
+    background: linear-gradient(45deg, #fff000, #fff111, #fff999, #5868ec, #f54e80, #f7ca18, #d2527f);
+    background-size: 1500% 1500%;
+    -webkit-animation: ignielGradient 12s ease infinite;
+    -moz-animation: ignielGradient 12s ease infinite;
+    animation: ignielGradient 12s ease infinite;
+}
+@-webkit-keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+    
+}
+body{
+  background-color: lightgray;
+}
+.text{
+  font-family: Sans-Serif;
+  text-align: right;
+  margin-top: 450px;
+}
+  
